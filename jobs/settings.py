@@ -98,8 +98,8 @@ USE_TZ = True
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
-ALLOWED_HOSTS = ['localhost','127.0.0.1','onlinejobportal-production.up.railway.app']
-CSRF_TRUSTED_ORIGINS=["https://onlinejobportal-production.up.railway.app"]
+ALLOWED_HOSTS = ['localhost','127.0.0.1','onlinejobportal.com']
+CSRF_TRUSTED_ORIGINS=["https://onlinejobportal.com"]
 
 
 
